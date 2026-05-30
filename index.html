@@ -3,43 +3,247 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Noor Islamic Education</title>
+<title>Madrasa Education BD</title>
+
 <style>
-body{font-family:Arial,sans-serif;margin:0;background:#f4f4f4}
-header{background:#0f6b3e;color:white;padding:20px;text-align:center}
-section{padding:40px;text-align:center}
-.card{background:white;margin:10px;padding:20px;border-radius:10px}
-footer{background:black;color:white;padding:15px;text-align:center}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7f5;
+}
+
+header{
+background:linear-gradient(135deg,#0f6b3e,#0a8f54);
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+}
+
+header p{
+margin-top:10px;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:white;
+}
+
+.hero h2{
+font-size:45px;
+color:#0f6b3e;
+}
+
+.hero p{
+max-width:800px;
+margin:20px auto;
+font-size:18px;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+background:#0f6b3e;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:8px;
+margin-top:15px;
+}
+
+.section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.title{
+text-align:center;
+font-size:35px;
+margin-bottom:40px;
+color:#0f6b3e;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#0f6b3e;
+margin-bottom:10px;
+}
+
+.features{
+background:#0f6b3e;
+color:white;
+padding:60px 20px;
+}
+
+.features .grid div{
+background:rgba(255,255,255,0.15);
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
 </style>
+
 </head>
 <body>
 
 <header>
-<h1>Noor Islamic Education</h1>
-<p>Class 1 থেকে Kamil পর্যন্ত শিক্ষা</p>
-</header>
+<h1>🕌 Madrasa Education BD</h1>
+<p>Class 1 থেকে Kamil পর্যন্ত সম্পূর্ণ ইসলামিক শিক্ষা</p>
 
-<section>
-<h2>স্বাগতম</h2>
-<p>এখানে Class 1 থেকে Kamil পর্যন্ত বই, PDF ও ভিডিও ক্লাস থাকবে।</p>
+<nav>
+<a href="#">Home</a>
+<a href="#">Classes</a>
+<a href="#">Books</a>
+<a href="#">Videos</a>
+<a href="#">Results</a>
+<a href="#">Contact</a>
+<a href="login.html">Login</a>
+</nav>
+
+<section class="hero">
+<h2>📖 ইসলামিক শিক্ষা প্ল্যাটফর্ম</h2>
+
+<p>
+এখানে Class 1 থেকে Kamil পর্যন্ত সকল বই, PDF, নোট,
+ভিডিও ক্লাস, পরীক্ষার প্রস্তুতি এবং ইসলামিক শিক্ষা একসাথে পাওয়া যাবে।
+</p>
+
+<a href="#" class="btn">পড়া শুরু করুন</a>
 </section>
 
-<section>
+<section class="features">
+<h2 class="title" style="color:white">🌟 Website Features</h2>
+
+<div class="grid">
+<div>📚 PDF Library</div>
+<div>🎥 Video Classes</div>
+<div>👨‍🎓 Student Login</div>
+<div>📝 Online Exam</div>
+<div>📊 Results</div>
+<div>🕌 Islamic Blog</div>
+<div>📖 Quran Learning</div>
+<div>📱 Mobile Friendly</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">🎓 সকল ক্লাস</h2>
+
+<div class="grid">
+
 <div class="card">
-<h3>কুরআন শিক্ষা</h3>
+<h3>Class 1 - 5</h3>
+<p>কুরআন, আরবি, বাংলা, ইংরেজি, গণিত</p>
 </div>
 
 <div class="card">
-<h3>হাদিস</h3>
+<h3>Class 6 - 8</h3>
+<p>হাদিস, ফিকহ, আকাইদ, আরবি ব্যাকরণ</p>
 </div>
 
 <div class="card">
-<h3>ফিকহ</h3>
+<h3>Dakhil</h3>
+<p>তাফসির, হাদিস, ইসলামের ইতিহাস</p>
+</div>
+
+<div class="card">
+<h3>Alim</h3>
+<p>তাফসির, ফিকহ, উসুলুল হাদিস</p>
+</div>
+
+<div class="card">
+<h3>Fazil</h3>
+<p>উচ্চতর ইসলামিক শিক্ষা</p>
+</div>
+
+<div class="card">
+<h3>Kamil</h3>
+<p>বিশেষায়িত ইসলামিক শিক্ষা</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">📖 জনপ্রিয় বিষয়</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>📖 কুরআন শিক্ষা</h3>
+</div>
+
+<div class="card">
+<h3>📗 হাদিস</h3>
+</div>
+
+<div class="card">
+<h3>📘 ফিকহ</h3>
+</div>
+
+<div class="card">
+<h3>📙 তাফসির</h3>
+</div>
+
+<div class="card">
+<h3>📕 আকাইদ</h3>
+</div>
+
+<div class="card">
+<h3>📓 আরবি ব্যাকরণ</h3>
+</div>
+
 </div>
 </section>
 
 <footer>
-© 2026 Noor Islamic Education
+© 2026 Madrasa Education BD | All Rights Reserved
 </footer>
 
 </body>
